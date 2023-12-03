@@ -1,0 +1,9 @@
+2023-12-01 12:48:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "STUDENTS" not found; SQL statement:
+SELECT * FROM STUDENTS WHERE username = ? AND password = ? [42102-197]
+2023-12-01 12:48:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "STUDENTS" not found; SQL statement:
+INSERT INTO STUDENTS (name, username, password) VALUES (?, ?, ?) [42102-197]
+2023-12-01 12:48:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "STUDENTS" not found; SQL statement:
+SELECT * FROM STUDENTS [42102-197]
